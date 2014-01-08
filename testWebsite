@@ -1,0 +1,111 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://ieeeusa.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "map[name=\"FPMap0_I2\"] > area"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='main tabke']/tbody/tr[1]/td/table/tbody/tr[2]/td/map/area[3]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='main tabke']/tbody/tr[1]/td/table/tbody/tr[2]/td/map/area[4]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='main tabke']/tbody/tr[1]/td/table/tbody/tr[2]/td/map/area[5]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='main tabke']/tbody/tr[1]/td/table/tbody/tr[2]/td/img"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Smart Brief"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='main tabke']/tbody/tr[1]/td/table/tbody/tr[2]/td/map/area[6]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "About Today's Engineer"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "home"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "IEEE-USA"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "td > #table1 > tbody > tr > td > a > img"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='main tabke']/tbody/tr[1]/td/table/tbody/tr[2]/td/map/area[6]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='main tabke']/tbody/tr[1]/td/table/tbody/tr[2]/td/map/area[8]"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "IEEE-USA Meeting Calendar (2014)"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "IEEE-USA Home"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Visit us on any of these sites..."
+    }
+  ]
+}
